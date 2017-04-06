@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ColorPicker.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPopoverPresentationControllerDelegate, UpdateColorTagDelegate>
 
+- (IBAction)showColorPicker:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIView *colorView;
 
 @end
+
 

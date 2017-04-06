@@ -13,6 +13,7 @@
 		DC7267211E93DD86003FFF09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC72671F1E93DD86003FFF09 /* Main.storyboard */; };
 		DC7267231E93DD86003FFF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7267221E93DD86003FFF09 /* Assets.xcassets */; };
 		DC7267261E93DD86003FFF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7267241E93DD86003FFF09 /* LaunchScreen.storyboard */; };
+		DC72672F1E93E0F3003FFF09 /* ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72672E1E93E0F3003FFF09 /* ColorPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DC7267221E93DD86003FFF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7267251E93DD86003FFF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC7267271E93DD86003FFF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC72672D1E93E0F3003FFF09 /* ColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPicker.h; sourceTree = "<group>"; };
+		DC72672E1E93E0F3003FFF09 /* ColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				DC7267191E93DD86003FFF09 /* AppDelegate.h */,
 				DC72671A1E93DD86003FFF09 /* AppDelegate.m */,
+				DC72672D1E93E0F3003FFF09 /* ColorPicker.h */,
+				DC72672E1E93E0F3003FFF09 /* ColorPicker.m */,
 				DC72671C1E93DD86003FFF09 /* ViewController.h */,
 				DC72671D1E93DD86003FFF09 /* ViewController.m */,
 				DC72671F1E93DD86003FFF09 /* Main.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC72671E1E93DD86003FFF09 /* ViewController.m in Sources */,
+				DC72672F1E93E0F3003FFF09 /* ColorPicker.m in Sources */,
 				DC72671B1E93DD86003FFF09 /* AppDelegate.m in Sources */,
 				DC7267181E93DD86003FFF09 /* main.m in Sources */,
 			);
